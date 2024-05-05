@@ -12,6 +12,6 @@ I'm learning Next.js, a tool for building websites with React. This project is a
 -You can find countries by clicking to different continents
 
 ### Technology Used
-  -Next.js
-  -React
-  -Tailwind
+- Next.js
+- React
+- Tailwind
