@@ -1,7 +1,7 @@
 # Country finder app
 This project is my first try at making a website using Next.js. I got inspired by a challenge from [Frontend Mentor](#https://www.frontendmentor.io/challenges/rest-countries-api-with-color-theme-switcher-5cacc469fec04111f7b848ca/hub). It helps you find info about countries.
 ### Links
-- [Live Site URL](#https://country-finder-sigma-two.vercel.app/)
+- [Live Site URL](https://country-finder-sigma-two.vercel.app/)
 
 
 ### About
