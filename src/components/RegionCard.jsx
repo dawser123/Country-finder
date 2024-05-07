@@ -4,7 +4,7 @@ import Link from 'next/link'
 import { IoMdArrowRoundBack } from 'react-icons/io'
 import { useRouter } from 'next/navigation'
 import CountryDetails from './CountryDetails'
-import Button from '@/components/UI/Button'
+import Button from '@/UI/Button'
 const RegionCard = ({ country, continent }) => {
 	const router = useRouter()
 	return (
