@@ -6,9 +6,10 @@ import australia from '/public/Australia.jpg'
 import northAmerica from '/public/North_America.webp'
 import southAmerica from '/public/South_America.jpg'
 import Continent from './Continent'
+import CenteredContent from './CenteredContent'
 const Continents = () => {
 	return (
-		<>
+		<CenteredContent>
 			<h2 className="text-center font-bold py-10 text-xl">Continents</h2>
 			<ul className="flex justify-center gap-5 items-center  flex-wrap">
 				<Continent url={europe} link="Europe" title="europe" />
@@ -19,7 +20,7 @@ const Continents = () => {
 				<Continent url={southAmerica} title="south america" link="South America" />
 				<Continent url={antarctica} title="antarctica" link="Antarctica" />
 			</ul>
-		</>
+		</CenteredContent>
 	)
 }
 export default Continents
