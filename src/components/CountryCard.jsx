@@ -3,7 +3,7 @@ import Image from 'next/image'
 import { IoMdArrowRoundBack } from 'react-icons/io'
 import { useRouter } from 'next/navigation'
 import CountryDetails from './CountryDetails'
-import Button from '@/components/UI/Button'
+import Button from '@/ui/Button'
 const CountryCard = ({ country }) => {
 	const router = useRouter()
 	return (
