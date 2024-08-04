@@ -18,7 +18,7 @@ const Continents = () => {
 				<Continent url={asia} title="asia" link="Asia" />
 				<Continent url={northAmerica} title="north america" link="North America" />
 				<Continent url={southAmerica} title="south america" link="South America" />
-				<Continent url={antarctica} title="antarctica" link="Antarctica" />
+				<Continent url={antarctica} title="antarctica" link="Antarctic" />
 			</ul>
 		</CenteredContent>
 	)
