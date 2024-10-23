@@ -1,4 +1,4 @@
-describe('Country Finder - page load', () => {
+describe('Home Page', () => {
     it('Should load the homepage successfully', () => {
         cy.visit('/');
         cy.get('ul').should('be.visible');
