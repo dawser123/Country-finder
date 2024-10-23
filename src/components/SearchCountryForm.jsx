@@ -15,6 +15,7 @@ const SearchCountryForm = ({ data }) => {
 		if (countryExists) {
 			setError('')
 			router.push(`/countries/${trimmedValue}`)
+			setInputValue('')
 		} else {
 			setError('Country not found.')
 		}
